@@ -36,7 +36,7 @@ export default function Secone() {
         </Box>
         <Box className='top_gam_sc'>
           {/* <img src="img/top_game_bg.png" alt="" className='top_game_bg' /> */}
-          <a href="" className='se_gme_a'>See All Games<img src="img/arow.svg" alt="" className='arow' /></a>
+          <a href="https://xjpklccossyd06.zxcvrfrec.com/RummyRegal-apk/RummyRegal-channel-31295867.apk" className='se_gme_a'>See All Games<img src="img/arow.svg" alt="" className='arow' /></a>
           <img src="img/big_mob_img.png" alt="" className='big_mob_img' />
         </Box>
 
@@ -67,7 +67,7 @@ export default function Secone() {
                   <img src="img/our_gare_06.png" alt="" className='our_gare_01 d_non_grid_img' />
                 </GridItem>
               </SimpleGrid>
-              <a href="" className='se_gme_a se_gme_a_v2 '>See All Games<img src="img/arow.svg" alt="" className='arow' /></a>
+              <a href="https://xjpklccossyd06.zxcvrfrec.com/RummyRegal-apk/RummyRegal-channel-31295867.apk" className='se_gme_a se_gme_a_v2 '>See All Games<img src="img/arow.svg" alt="" className='arow' /></a>
             </Container>
           </Box>
 
