@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://rummy-mate.vip/sitemap.xml
