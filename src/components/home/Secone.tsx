@@ -1,6 +1,9 @@
 import React from 'react'
 import { Box, Text, Button, Container, SimpleGrid, GridItem, Heading } from "@chakra-ui/react";
 import Slidersec from '../Slidersec';
+import Navbar from '../Navbar/Navbar';
+import NavbarMobile from '../Navbar/NavbarMobile';
+import Footer from '../Footer/Footer';
 
 
 export default function Secone() {
@@ -8,6 +11,7 @@ export default function Secone() {
     <>
 
       <Box className="">
+      
         <Box className='sec_one_bg_box'>
           <Container maxW='1750'>
             <Box className='sec_one_contin'>
@@ -15,9 +19,17 @@ export default function Secone() {
                 <img src="img/play_ic.svg" alt="" className='play_ic' />
               </a>
               <Box className='head_bx'>
-                <a href="#">
+              <div className="navbar-container2">
+            <div className="navbar-desktop hidden md:flex">
+                <Navbar/>
+            </div>
+            <div className="navbar-mobile md:hidden">
+                <NavbarMobile/>
+            </div>
+        </div>
+                {/* <a href="#">
                   <img src="img/logo.png" alt="" className='logo' />
-                </a>
+                </a> */}
               </Box>
               <Box className='sec_01_p_btn_img'>
                 <Box className='sec_bg_box'>
@@ -130,10 +142,13 @@ export default function Secone() {
               <Text>Players must be at least 18 years old to engage in real money rummy. This game has the potential to become addictive and pose financial risks. Please gamble responsibly.</Text>
               <Heading className='for_mrg' as={'h3'}>100% Legal:</Heading>
               <Text>Rummy has been legally recognized as a game of skill. As determined by the Supreme Court of India in 1968, playing rummy, whether for free or for cash, is completely legal in most regions of India.</Text>
-              <span>Copyright © 2022 RummyRegal® All Rights Reserved</span>
+              {/* <span>Copyright © 2022 RummyRegal® All Rights Reserved</span> */}
+              {/* <Footer/> */}
             </Box>
+            
           </Container>
         </Box>
+        <Footer/>
       </Box>
 
     </>
