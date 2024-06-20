@@ -56,7 +56,7 @@ export default function Secone() {
           <Box className='our_gare_se'>
             <Container maxW='1750'>
               <Box className='our_gare_se_ph'>
-                <Heading as={'h3'}>OUR GAMES</Heading>
+                <Heading as={'h2'}>OUR GAMES</Heading>
                 <Text>opJoin RummyRegal and experience exciting real rummy games. Not only do we have exciting dragon and tiger games, but we also have sports betting and a dozen other games. Come and claim your treasures and wealth!</Text>
               </Box>
               <SimpleGrid columns={12} columnGap={3} rowGap={3}>
